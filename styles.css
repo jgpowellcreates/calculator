@@ -1,0 +1,74 @@
+#holder {
+
+}
+
+#screen{
+    width: 350px;
+    height: 90px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+/* buttonsArea may be where display style is set up */
+#buttonsArea{
+    display:grid;
+    grid-auto-rows: minmax(50px, auto);
+}
+
+#row1{
+    display: grid;
+    grid-template-columns: repeat(4, 85px);
+}
+
+#row2{
+    display: grid;
+    grid-template-columns: repeat(4, 85px);
+}
+
+#row3{
+    display: grid;
+    grid-template-columns: repeat(4, 85px);
+}
+
+#row4{
+    display: grid;
+    grid-template-columns: repeat(4, 85px);
+}
+
+#row5{
+    display: grid;
+    grid-template-columns: repeat(4, 85px);
+}
+
+.button {
+    height: 80px;
+    width: 80px;
+    border: 2px solid black;
+    border-radius: 100%;
+    margin: 5px;
+}
+.button:hover{
+    border-color:gray;
+}
+
+.dblButton {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border: 2px solid black;
+    border-radius: 50px;
+    height: 80px;
+    width: 165px;
+    margin: 5px;
+}
+.dblButton:hover{
+    border-color:gray;
+}
+
+.operator {
+
+}
+
+.numberBtn{
+
+}
+
